@@ -501,11 +501,11 @@
             <pb n="21" facs="https://raw.githubusercontent.com/LEAF-VRE/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_images/dalloway_02.jpg"/>
             <p>"I love walking in London" said Mrs Dalloway. "Really it's better than walking in the
                country!"</p>
-            <p>"We've just come up" said Hugh Whitbread. "Unfortunately to see doctors."</p>
+            <p>"We've just come up" said <c>Hugh Whitbread</c>. "Unfortunately to see doctors."</p>
             <p>"Milly?" said Mrs Dalloway, instantly compassionate.</p>
             <p>"Out of sorts," said Hugh Whitbread. "That sort of thing. Dick all right?"</p>
             <p>"First rate!" said Clarissa.</p>
-            <p>Of course, she thought, walking on, Milly is about my age—fifty—fifty-two. So it is
+            <p>Of course, she thought, walking on, Milly is about my age—<desc cert="high" type="deprecationInfo" xml:space="default">fifty—fifty-two</desc>. So it is
                probably that, Hugh's manner had said so, said it perfectly—dear old Hugh,
                thought Mrs Dalloway, remembering with amusement, with gratitude, with emotion, how
                shy, like a brother—one would rather die than speak to one's brother—Hugh had always

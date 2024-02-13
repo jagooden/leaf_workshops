@@ -181,7 +181,7 @@
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/jagooden/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml?person_annotation_20240213155611080#Selector",
 			"@type": "oa:XPathSelector",
-			"rdf:value": "TEI/text/body/div/byline/persName/persName"
+			"rdf:value": "TEI/text/body/div/byline/persName"
 		}
 	},
 	"oa:hasBody": {
@@ -263,7 +263,7 @@
 			"@type": "oa:RangeSelector",
 			"oa:hasStartSelector": {
 				"@type": "oa:XPathSelector",
-				"rdf:value": "TEI/text/body/div/head/persName/title"
+				"rdf:value": "TEI/text/body/div/head/title"
 			},
 			"oa:hasEndSelector": {
 				"@type": "oa:XPathSelector",
@@ -326,7 +326,7 @@
 	"id": "https://raw.githubusercontent.com/jagooden/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml?place_annotation_20240213155853614",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-13T21:58:53.614Z",
-	"dcterms:modified": "2024-02-13T21:58:53.614Z",
+	"dcterms:modified": "2024-02-13T22:03:21.134Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/jagooden",
 		"@type": [
@@ -369,7 +369,7 @@
 		"schema:softwareVersion": "3.4.0"
 	},
 	"cwrc:hasCertainty": "cwrc:high",
-	"cwrc:hasPrecision": "cwrc:UnknownCertainty"
+	"cwrc:hasPrecision": "cwrc:mediumCertainty"
 }]]>
         </rdf:Description>
       
@@ -407,7 +407,7 @@
 	"id": "https://raw.githubusercontent.com/jagooden/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml?place_annotation_20240213160100766",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-13T22:01:00.766Z",
-	"dcterms:modified": "2024-02-13T22:01:00.766Z",
+	"dcterms:modified": "2024-02-13T22:03:28.029Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/jagooden",
 		"@type": [
@@ -448,7 +448,9 @@
 		"rdfs:label": "LEAF-Writer",
 		"schema:url": "https://leaf-writer.lincsproject.ca/",
 		"schema:softwareVersion": "3.4.0"
-	}
+	},
+	"cwrc:hasCertainty": "cwrc:medium",
+	"cwrc:hasPrecision": "cwrc:mediumCertainty"
 }]]>
         </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
@@ -466,17 +468,17 @@
          <div>
             <pb n="20" facs="https://raw.githubusercontent.com/LEAF-VRE/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_images/dalloway_01.jpg"/>
 
-            <head><persName key="Mrs Dalloway" ref="http://www.wikidata.org/entity/Q752584" type="fictional"><title>MRS DALLOWAY</title></persName> IN BOND STREET</head>
-            <byline>BY <persName role="aut" type="real"><persName key="Virginia Woolf" ref="http://www.wikidata.org/entity/Q40909" cert="medium" role="aut" type="real">VIRGINIA WOOLF</persName></persName></byline>
+            <head><title>MRS DALLOWAY</title> IN BOND STREET</head>
+            <byline>BY <persName key="Virginia Woolf" ref="http://www.wikidata.org/entity/Q40909" cert="medium" role="aut" type="real">VIRGINIA WOOLF</persName></byline>
 
 
             <p>Mrs Dalloway said she would buy the gloves herself.</p>
-            <p><placeName><placeName key="Big Ben" ref="http://www.wikidata.org/entity/Q41225" cert="high">Big Ben<precision match="@ref" precision="Unknown"/></placeName></placeName> was striking as she stepped out into the street. It was<time> eleven o'clock</time> and
+            <p><placeName><placeName key="Big Ben" ref="http://www.wikidata.org/entity/Q41225" cert="high">Big Ben<precision match="@ref" precision="medium"/></placeName></placeName> was striking as she stepped out into the street. It was<time> eleven o'clock</time> and
                the unused hour was fresh as if issued to children on a beach. But there was
                something solemn in the deliberate swing of the repeated strokes; something stirring
                in the murmur of wheels and the shuffle of footsteps.</p>
             <p>No doubt they were not all bound on errands of happiness. There is much more to be
-               said about us than that we walk the streets of <placeName key="City of Westminster" ref="http://www.wikidata.org/entity/Q179351">Westminster</placeName>. Big Ben too is nothing
+               said about us than that we walk the streets of <placeName key="City of Westminster" ref="http://www.wikidata.org/entity/Q179351" cert="medium">Westminster<precision match="@ref" precision="medium"/></placeName>. Big Ben too is nothing
                but steel rods consumed by rust were it not for the care of <placeName>H. M.'s Office of Works</placeName>.
                Only for Mrs Dalloway the moment was complete; for Mrs Dalloway June was fresh. A
                happy childhood—and it was not to his daughters only that Justin Parry had seemed a

@@ -73,10 +73,9 @@
 		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
 		"org": "http://www.w3.org/ns/org#"
 	},
-	"id": "https://raw.githubusercontent.com/jagooden/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml?place_annotation_20240213154730305",
+	"id": "https://raw.githubusercontent.com/jagooden/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml?place_annotation_20240213154943733",
 	"type": "oa:Annotation",
-	"dcterms:created": "2024-02-13T21:47:30.305Z",
-	"dcterms:modified": "2024-02-13T21:49:43.733Z",
+	"dcterms:created": "2024-02-13T21:49:43.733Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/jagooden",
 		"@type": [
@@ -87,7 +86,7 @@
 	},
 	"oa:motivatedBy": "oa:identifying",
 	"oa:hasTarget": {
-		"@id": "https://raw.githubusercontent.com/jagooden/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml?place_annotation_20240213154730305#Target",
+		"@id": "https://raw.githubusercontent.com/jagooden/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml?place_annotation_20240213154943733#Target",
 		"@type": "oa:SpecificResource",
 		"oa:hasSource": {
 			"@id": "https://raw.githubusercontent.com/jagooden/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml",
@@ -101,7 +100,7 @@
 			"schema:softwareVersion": "3.4.0"
 		},
 		"oa:hasSelector": {
-			"@id": "https://raw.githubusercontent.com/jagooden/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml?place_annotation_20240213154730305#Selector",
+			"@id": "https://raw.githubusercontent.com/jagooden/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml?place_annotation_20240213154943733#Selector",
 			"@type": "oa:XPathSelector",
 			"rdf:value": "TEI/text/body/div/p[13]/placeName"
 		}
@@ -155,7 +154,6 @@
 	"id": "https://raw.githubusercontent.com/jagooden/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml?title_annotation_20240213155210879",
 	"type": "oa:Annotation",
 	"dcterms:created": "2024-02-13T21:52:10.879Z",
-	"dcterms:modified": "2024-02-13T21:52:10.879Z",
 	"dcterms:creator": {
 		"@id": "https://github.com/jagooden",
 		"@type": [
@@ -181,20 +179,8 @@
 		},
 		"oa:hasSelector": {
 			"@id": "https://raw.githubusercontent.com/jagooden/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml?title_annotation_20240213155210879#Selector",
-			"@type": "oa:RangeSelector",
-			"oa:hasStartSelector": {
-				"@type": "oa:XPathSelector",
-				"rdf:value": "TEI/text/body/div/head/persName"
-			},
-			"oa:hasEndSelector": {
-				"@type": "oa:XPathSelector",
-				"rdf:value": "TEI/text/body/div/head"
-			},
-			"oa:refinedBy": {
-				"@type": "oa:TextPositionSelector",
-				"oa:start": 0,
-				"oa:end": 12
-			}
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/head/persName/title"
 		}
 	},
 	"oa:hasBody": {
@@ -212,6 +198,86 @@
 	"cwrc:hasCertainty": "cwrc:high"
 }]]>
         </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "https://raw.githubusercontent.com/jagooden/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml?person_annotation_20240213155611080",
+	"type": "oa:Annotation",
+	"dcterms:created": "2024-02-13T21:56:11.080Z",
+	"dcterms:modified": "2024-02-13T21:56:11.080Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/jagooden",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Jade Gooden"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/jagooden/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml?person_annotation_20240213155611080#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/jagooden/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.4.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/jagooden/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_exercise.xml?person_annotation_20240213155611080#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/byline/persName/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q40909",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.4.0"
+	},
+	"cwrc:hasCertainty": "cwrc:medium"
+}]]>
+        </rdf:Description>
       </rdf:RDF></xenoData><encodingDesc>
 
          <projectDesc>
@@ -227,8 +293,8 @@
          <div>
             <pb n="20" facs="https://raw.githubusercontent.com/LEAF-VRE/leaf_workshops/main/exercises/MrsDalloway_in_BondStreet/dalloway_images/dalloway_01.jpg"/>
 
-            <head><persName key="Mrs Dalloway" ref="http://www.wikidata.org/entity/Q752584" type="fictional">MRS DALLOWAY</persName> IN BOND STREET</head>
-            <byline>BY <persName role="aut" type="real">VIRGINIA WOOLF</persName></byline>
+            <head><persName key="Mrs Dalloway" ref="http://www.wikidata.org/entity/Q752584" type="fictional"><title>MRS DALLOWAY</title></persName> IN BOND STREET</head>
+            <byline>BY <persName role="aut" type="real"><persName key="Virginia Woolf" ref="http://www.wikidata.org/entity/Q40909" cert="medium" role="aut" type="real">VIRGINIA WOOLF</persName></persName></byline>
 
 
             <p>Mrs Dalloway said she would buy the gloves herself.</p>
